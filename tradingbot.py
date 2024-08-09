@@ -11,7 +11,14 @@ from datetime import datetime  # Module for handling date and time operations
 from alpaca_trade_api import REST  # Interface for interacting with Alpaca's REST API
 from timedelta import Timedelta  # Function used for calculating date differences
 from finbert_utils import estimate_sentiment  # Function for estimating sentiment from news headlines using FinBERT
-from math  import floor # Function used for rounding down and working with 0's as opposed to round()
+from math import floor  # Function used for rounding down and working with 0's as opposed to round()
+
+# Define constants for thresholds and commonly used values (for magic numbers)
+TAKE_PROFIT_MULTIPLIER_BUY = 1.20  # Multiplier for take profit price when buying
+STOP_LOSS_MULTIPLIER_BUY = 0.95  # Multiplier for stop loss price when buying
+TAKE_PROFIT_MULTIPLIER_SELL = 0.80  # Multiplier for take profit price when selling (short sell)
+STOP_LOSS_MULTIPLIER_SELL = 1.05  # Multiplier for stop loss price when selling (short sell)
+SENTIMENT_THRESHOLD = 0.999  # Threshold for sentiment probability to trigger a trade
 
 # Define API credentials
 API_KEY = "key" 
@@ -27,15 +34,16 @@ ALPACA_CREDS = {
 
 # Define the MLTrader class inheriting from Strategy
 class MLTrader(Strategy):
-    def initialize(self, symbol: str = "SPY", cash_at_risk: float = .5):
+    def initialize(self, symbol: str = "SPY", cash_at_risk: float = .5, sleeptime: str = "24H"):  # Added sleeptime as a parameter
         """
         Initialize the trading strategy with default parameters.
 
         symbol (str): The stock symbol to trade. Defaults to 'SPY', which represents the SPDR S&P 500 ETF.
         cash_at_risk (float): The fraction of total cash to be risked on each trade. Defaults to 0.5 (or 50%). Higher value means higher risk taken.
+        sleeptime (str): Time between trading iterations. Defaults to '24H'.
         """
         self.symbol = symbol  # Set the trading symbol
-        self.sleeptime = "24H"  # Set sleep time between iterations
+        self.sleeptime = sleeptime  # Set sleep time between iterations
         self.last_trade = None  # Track the last trade action
         self.cash_at_risk = cash_at_risk  # Set the cash at risk per trade
         self.api = REST(base_url=BASE_URL, key_id=API_KEY, secret_key=API_SECRET)  # Initialize Alpaca API connection
@@ -61,38 +69,40 @@ class MLTrader(Strategy):
         probability, sentiment = estimate_sentiment(news)  # Estimate sentiment from headlines
         return probability, sentiment
 
+    def execute_trade(self, trade_type, last_price, quantity):
+        """Helper function to execute buy or sell trades."""
+        if trade_type == "buy":
+            take_profit_price = last_price * TAKE_PROFIT_MULTIPLIER_BUY
+            stop_loss_price = last_price * STOP_LOSS_MULTIPLIER_BUY
+        elif trade_type == "sell":
+            take_profit_price = last_price * TAKE_PROFIT_MULTIPLIER_SELL
+            stop_loss_price = last_price * STOP_LOSS_MULTIPLIER_SELL
+
+        order = self.create_order(
+            self.symbol,
+            quantity,
+            trade_type,
+            type="bracket",
+            take_profit_price=take_profit_price,  # Set take profit price
+            stop_loss_price=stop_loss_price  # Set stop loss price
+        )
+        self.submit_order(order)  # Submit the order
+        self.last_trade = trade_type  # Update the last trade action
+
     def on_trading_iteration(self):
         """Execute trading logic on each iteration."""
         cash, last_price, quantity = self.position_sizing()  # Get position sizing
         probability, sentiment = self.get_sentiment()  # Get sentiment
 
         if cash > last_price:  # Ensure there is enough cash to trade
-            if sentiment == "positive" and probability > .999:  # Buy condition triggered only if the sentiment is highly positive with a probability greater than 0.999
-                if self.last_trade == "sell":  # If the last trade was a sell, sell all positions first
+            if sentiment == "positive" and probability > SENTIMENT_THRESHOLD:
+                if self.last_trade == "sell":  # Close any open short positions
                     self.sell_all()
-                order = self.create_order(
-                    self.symbol,
-                    quantity,
-                    "buy",
-                    type="bracket",
-                    take_profit_price=last_price * 1.20,  # Set take profit price
-                    stop_loss_price=last_price * .95  # Set stop loss price
-                )
-                self.submit_order(order)  # Submit buy order
-                self.last_trade = "buy"  # Update last trade action to buy
-            elif sentiment == "negative" and probability > .999:  # Sell condition triggered only if the sentiment is highly negative with a probability greater than 0.999
-                if self.last_trade == "buy":  # If the last trade was a buy, sell all positions first
+                self.execute_trade("buy", last_price, quantity)  # Execute buy order
+            elif sentiment == "negative" and probability > SENTIMENT_THRESHOLD:
+                if self.last_trade == "buy":  # Close any open long positions
                     self.sell_all()
-                order = self.create_order(
-                    self.symbol,
-                    quantity,
-                    "sell",
-                    type="bracket",
-                    take_profit_price=last_price * .8,  # Set take profit price for short sell
-                    stop_loss_price=last_price * 1.05  # Set stop loss price for short sell
-                )
-                self.submit_order(order)  # Submit sell order
-                self.last_trade = "sell"  # Update last trade action to sell
+                self.execute_trade("sell", last_price, quantity)  # Execute sell order
 
 # Define the start and end dates for backtesting
 start_date = datetime(2020, 3, 30)
