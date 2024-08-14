@@ -1,0 +1,35 @@
+2024-08-13 22:12:03,570: root: INFO: MLTrader3 : Executing the initialize lifecycle method
+2024-08-13 22:12:03,979: root: INFO: Current backtesting datetime 2020-12-30 08:30:00-05:00
+2024-08-13 22:12:03,980: root: INFO: MLTrader3 : Executing the before_market_opens lifecycle method
+2024-08-13 22:12:03,980: root: INFO: Current backtesting datetime 2020-12-30 09:30:00-05:00
+2024-08-13 22:12:03,980: root: INFO: MLTrader3 : Executing the before_starting_trading lifecycle method
+2024-08-13 22:12:03,980: root: INFO: [34mMLTrader3 : Executing the on_trading_iteration lifecycle method at 2024-08-13 22:12:03[0m
+2024-08-13 22:12:04,073: root: ERROR: unsupported operand type(s) for -: 'str' and 'Timedelta'
+2024-08-13 22:12:04,074: root: ERROR: Traceback (most recent call last):
+  File "/opt/miniconda3/envs/PythonTradingBot/lib/python3.10/site-packages/lumibot/strategies/strategy_executor.py", line 829, in run
+    self._run_trading_session()
+  File "/opt/miniconda3/envs/PythonTradingBot/lib/python3.10/site-packages/lumibot/strategies/strategy_executor.py", line 780, in _run_trading_session
+    self._on_trading_iteration()
+  File "/opt/miniconda3/envs/PythonTradingBot/lib/python3.10/site-packages/lumibot/strategies/strategy_executor.py", line 274, in func_output
+    result = func_input(self, *args, **kwargs)
+  File "/opt/miniconda3/envs/PythonTradingBot/lib/python3.10/site-packages/lumibot/strategies/strategy_executor.py", line 298, in func_output
+    result = func_input(self, *args, **kwargs)
+  File "/opt/miniconda3/envs/PythonTradingBot/lib/python3.10/site-packages/lumibot/strategies/strategy_executor.py", line 87, in func_output
+    return func_input(self, *args, **kwargs)
+  File "/opt/miniconda3/envs/PythonTradingBot/lib/python3.10/site-packages/lumibot/strategies/strategy_executor.py", line 378, in _on_trading_iteration
+    on_trading_iteration()
+  File "/opt/miniconda3/envs/PythonTradingBot/lib/python3.10/site-packages/lumibot/tools/decorators.py", line 62, in func_output
+    frame, result = call_function_get_frame(func_input, *args, **kwargs)
+  File "/opt/miniconda3/envs/PythonTradingBot/lib/python3.10/site-packages/lumibot/tools/decorators.py", line 30, in call_function_get_frame
+    result = func(*args, **kwargs)
+  File "/Users/sabeeh/Documents/Python-MLTradingBot/tradingbot.py", line 222, in on_trading_iteration
+    probability, sentiment = self.get_sentiment()  # Get sentiment analysis
+  File "/Users/sabeeh/Documents/Python-MLTradingBot/tradingbot.py", line 194, in get_sentiment
+    three_days_prior = (today - Timedelta(days=3)).strftime('%Y-%m-%d')  # Get news from the past 3 days
+TypeError: unsupported operand type(s) for -: 'str' and 'Timedelta'
+
+2024-08-13 22:12:04,074: root: INFO: MLTrader3 : Executing the on_bot_crash event method
+2024-08-13 22:12:04,076: root: INFO: Backtesting finished
+2024-08-13 22:12:04,076: root: WARNING: Cannot plot returns because the strategy returns are missing
+2024-08-13 22:12:04,120: root: WARNING: Cannot create a tearsheet because the strategy returns are missing
+2024-08-13 22:12:04,120: backtest_stats: INFO: Backtest took 0:00:00.550077 for a speed of 0.000

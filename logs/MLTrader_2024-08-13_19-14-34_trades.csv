@@ -1,0 +1,21 @@
+time,strategy,symbol,side,type,status,multiplier,time_in_force,asset.strike,asset.multiplier,asset.asset_type,price,filled_quantity,trade_cost
+2021-01-14 09:30:00-05:00,MLTrader,TSLA,buy,market,new,1,gtc,0.0,1,stock,,,
+2021-01-14 09:30:00-05:00,MLTrader,TSLA,buy,market,fill,1,gtc,0.0,1,stock,281.1300048828125,266,0.0
+2021-01-28 09:30:00-05:00,MLTrader,TSLA,buy,market,new,1,gtc,0.0,1,stock,,,
+2021-01-28 09:30:00-05:00,MLTrader,TSLA,sell,limit,canceled,1,day,0.0,1,stock,,,
+2021-01-28 09:30:00-05:00,MLTrader,TSLA,sell,stop,fill,1,day,0.0,1,stock,267.07350463867186,266,0.0
+2021-01-28 09:30:00-05:00,MLTrader,TSLA,buy,market,fill,1,gtc,0.0,1,stock,273.3333435058594,69,0.0
+2021-02-17 09:30:00-05:00,MLTrader,TSLA,sell,limit,canceled,1,day,0.0,1,stock,,,
+2021-02-17 09:30:00-05:00,MLTrader,TSLA,sell,stop,fill,1,day,0.0,1,stock,259.6666763305664,69,0.0
+2021-03-10 09:30:00-05:00,MLTrader,TSLA,buy,market,new,1,gtc,0.0,1,stock,,,
+2021-03-10 09:30:00-05:00,MLTrader,TSLA,buy,market,fill,1,gtc,0.0,1,stock,233.43333435058594,306,0.0
+2021-03-16 09:30:00-04:00,MLTrader,TSLA,sell,limit,canceled,1,day,0.0,1,stock,,,
+2021-03-16 09:30:00-04:00,MLTrader,TSLA,sell,stop,fill,1,day,0.0,1,stock,218.9566650390625,306,0.0
+2021-06-04 09:30:00-04:00,MLTrader,TSLA,sell,market,new,1,gtc,0.0,1,stock,,,
+2021-06-04 09:30:00-04:00,MLTrader,TSLA,sell,market,fill,1,gtc,0.0,1,stock,193.23666381835938,352,0.0
+2021-06-07 08:30:00-04:00,MLTrader,TSLA,buy,limit,canceled,1,day,0.0,1,stock,,,
+2021-06-07 08:30:00-04:00,MLTrader,TSLA,buy,stop,fill,1,day,0.0,1,stock,207.6699981689453,352,0.0
+2021-10-21 09:30:00-04:00,MLTrader,TSLA,buy,market,new,1,gtc,0.0,1,stock,,,
+2021-10-21 09:30:00-04:00,MLTrader,TSLA,buy,market,fill,1,gtc,0.0,1,stock,298.5,215,0.0
+2021-10-25 08:30:00-04:00,MLTrader,TSLA,sell,stop,canceled,1,day,0.0,1,stock,,,
+2021-10-25 08:30:00-04:00,MLTrader,TSLA,sell,limit,fill,1,day,0.0,1,stock,358.2,215,0.0

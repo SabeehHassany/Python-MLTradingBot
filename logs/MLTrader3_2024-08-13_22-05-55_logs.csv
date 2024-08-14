@@ -1,0 +1,49 @@
+2024-08-13 22:05:55,716: root: INFO: MLTrader3 : Executing the initialize lifecycle method
+2024-08-13 22:05:56,140: root: INFO: Current backtesting datetime 2020-12-30 08:30:00-05:00
+2024-08-13 22:05:56,141: root: INFO: MLTrader3 : Executing the before_market_opens lifecycle method
+2024-08-13 22:05:56,141: root: INFO: Current backtesting datetime 2020-12-30 09:30:00-05:00
+2024-08-13 22:05:56,141: root: INFO: MLTrader3 : Executing the before_starting_trading lifecycle method
+2024-08-13 22:05:56,141: root: INFO: [34mMLTrader3 : Executing the on_trading_iteration lifecycle method at 2024-08-13 22:05:56[0m
+2024-08-13 22:05:56,246: root: ERROR: Invalid format for parameter start: error parsing '2024-08-10T22:05:56.226510' as RFC3339 or 2006-01-02 time: parsing time "2024-08-10T22:05:56.226510": extra text: "T22:05:56.226510"
+2024-08-13 22:05:56,248: root: ERROR: Traceback (most recent call last):
+  File "/opt/miniconda3/envs/PythonTradingBot/lib/python3.10/site-packages/lumibot/strategies/strategy_executor.py", line 829, in run
+    self._run_trading_session()
+  File "/opt/miniconda3/envs/PythonTradingBot/lib/python3.10/site-packages/lumibot/strategies/strategy_executor.py", line 780, in _run_trading_session
+    self._on_trading_iteration()
+  File "/opt/miniconda3/envs/PythonTradingBot/lib/python3.10/site-packages/lumibot/strategies/strategy_executor.py", line 274, in func_output
+    result = func_input(self, *args, **kwargs)
+  File "/opt/miniconda3/envs/PythonTradingBot/lib/python3.10/site-packages/lumibot/strategies/strategy_executor.py", line 298, in func_output
+    result = func_input(self, *args, **kwargs)
+  File "/opt/miniconda3/envs/PythonTradingBot/lib/python3.10/site-packages/lumibot/strategies/strategy_executor.py", line 87, in func_output
+    return func_input(self, *args, **kwargs)
+  File "/opt/miniconda3/envs/PythonTradingBot/lib/python3.10/site-packages/lumibot/strategies/strategy_executor.py", line 378, in _on_trading_iteration
+    on_trading_iteration()
+  File "/opt/miniconda3/envs/PythonTradingBot/lib/python3.10/site-packages/lumibot/tools/decorators.py", line 62, in func_output
+    frame, result = call_function_get_frame(func_input, *args, **kwargs)
+  File "/opt/miniconda3/envs/PythonTradingBot/lib/python3.10/site-packages/lumibot/tools/decorators.py", line 30, in call_function_get_frame
+    result = func(*args, **kwargs)
+  File "/Users/sabeeh/Documents/Python-MLTradingBot/tradingbot.py", line 222, in on_trading_iteration
+    probability, sentiment = self.get_sentiment()  # Get sentiment analysis
+  File "/Users/sabeeh/Documents/Python-MLTradingBot/tradingbot.py", line 195, in get_sentiment
+    news = self.api.get_news(symbol=self.symbol, start=three_days_prior.isoformat(), end=today.isoformat())  # Fetch news
+  File "/opt/miniconda3/envs/PythonTradingBot/lib/python3.10/site-packages/alpaca_trade_api/rest.py", line 988, in get_news
+    news = list(self.get_news_iter(symbol=symbol,
+  File "/opt/miniconda3/envs/PythonTradingBot/lib/python3.10/site-packages/alpaca_trade_api/rest.py", line 972, in get_news_iter
+    for n in news:
+  File "/opt/miniconda3/envs/PythonTradingBot/lib/python3.10/site-packages/alpaca_trade_api/rest.py", line 594, in _data_get
+    resp = self.data_get(path, data=data, feed=feed,
+  File "/opt/miniconda3/envs/PythonTradingBot/lib/python3.10/site-packages/alpaca_trade_api/rest.py", line 274, in data_get
+    return self._request(
+  File "/opt/miniconda3/envs/PythonTradingBot/lib/python3.10/site-packages/alpaca_trade_api/rest.py", line 222, in _request
+    return self._one_request(method, url, opts, retry)
+  File "/opt/miniconda3/envs/PythonTradingBot/lib/python3.10/site-packages/alpaca_trade_api/rest.py", line 248, in _one_request
+    raise_api_error(resp, http_error)
+  File "/opt/miniconda3/envs/PythonTradingBot/lib/python3.10/site-packages/alpaca_trade_api/rest.py", line 83, in raise_api_error
+    raise APIError(error, http_error) from None
+alpaca_trade_api.rest.APIError: Invalid format for parameter start: error parsing '2024-08-10T22:05:56.226510' as RFC3339 or 2006-01-02 time: parsing time "2024-08-10T22:05:56.226510": extra text: "T22:05:56.226510"
+
+2024-08-13 22:05:56,248: root: INFO: MLTrader3 : Executing the on_bot_crash event method
+2024-08-13 22:05:56,250: root: INFO: Backtesting finished
+2024-08-13 22:05:56,251: root: WARNING: Cannot plot returns because the strategy returns are missing
+2024-08-13 22:05:56,298: root: WARNING: Cannot create a tearsheet because the strategy returns are missing
+2024-08-13 22:05:56,298: backtest_stats: INFO: Backtest took 0:00:00.582450 for a speed of 0.000

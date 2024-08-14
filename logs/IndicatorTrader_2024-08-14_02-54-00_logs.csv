@@ -1,0 +1,352 @@
+2024-08-14 02:54:00,327: root: INFO: IndicatorTrader : Executing the initialize lifecycle method
+2024-08-14 02:54:00,742: root: INFO: Current backtesting datetime 2020-01-02 08:30:00-05:00
+2024-08-14 02:54:00,743: root: INFO: IndicatorTrader : Executing the before_market_opens lifecycle method
+2024-08-14 02:54:00,743: root: INFO: Current backtesting datetime 2020-01-02 09:30:00-05:00
+2024-08-14 02:54:00,743: root: INFO: IndicatorTrader : Executing the before_starting_trading lifecycle method
+2024-08-14 02:54:00,743: root: INFO: [34mIndicatorTrader : Executing the on_trading_iteration lifecycle method at 2024-08-14 02:54:00[0m
+2024-08-14 02:54:01,517: root: INFO: [34mIndicatorTrader : Trading iteration ended at 2024-08-14 02:54:01[0m
+2024-08-14 02:54:01,518: root: INFO: IndicatorTrader : [34mSleeping for 86400 seconds[0m
+2024-08-14 02:54:01,518: root: INFO: Current backtesting datetime 2020-01-02 16:00:00-05:00
+2024-08-14 02:54:01,518: root: INFO: Current backtesting datetime 2020-01-03 09:30:00-05:00
+2024-08-14 02:54:01,519: root: INFO: [34mIndicatorTrader : Executing the on_trading_iteration lifecycle method at 2024-08-14 02:54:01[0m
+2024-08-14 02:54:01,752: root: INFO: [34mIndicatorTrader : Trading iteration ended at 2024-08-14 02:54:01[0m
+2024-08-14 02:54:01,752: root: INFO: IndicatorTrader : [34mSleeping for 86400 seconds[0m
+2024-08-14 02:54:01,753: root: INFO: Current backtesting datetime 2020-01-03 16:00:00-05:00
+2024-08-14 02:54:01,753: root: INFO: Current backtesting datetime 2020-01-04 09:30:00-05:00
+2024-08-14 02:54:01,753: root: INFO: [34mIndicatorTrader : The market is not currently open, skipping this trading iteration[0m
+2024-08-14 02:54:01,754: root: INFO: Current backtesting datetime 2020-01-04 09:29:00-05:00
+2024-08-14 02:54:01,754: root: INFO: Current backtesting datetime 2020-01-04 09:29:00-05:00
+2024-08-14 02:54:01,754: root: INFO: IndicatorTrader : Executing the after_market_closes lifecycle method
+2024-08-14 02:54:01,754: root: INFO: Current backtesting datetime 2020-01-06 08:30:00-05:00
+2024-08-14 02:54:01,755: root: INFO: IndicatorTrader : Executing the before_market_opens lifecycle method
+2024-08-14 02:54:01,755: root: INFO: Current backtesting datetime 2020-01-06 09:30:00-05:00
+2024-08-14 02:54:01,755: root: INFO: IndicatorTrader : Executing the before_starting_trading lifecycle method
+2024-08-14 02:54:01,756: root: INFO: [34mIndicatorTrader : Executing the on_trading_iteration lifecycle method at 2024-08-14 02:54:01[0m
+2024-08-14 02:54:02,007: root: INFO: [34mIndicatorTrader : Trading iteration ended at 2024-08-14 02:54:02[0m
+2024-08-14 02:54:02,008: root: INFO: IndicatorTrader : [34mSleeping for 86400 seconds[0m
+2024-08-14 02:54:02,008: root: INFO: Current backtesting datetime 2020-01-06 16:00:00-05:00
+2024-08-14 02:54:02,008: root: INFO: Current backtesting datetime 2020-01-07 09:30:00-05:00
+2024-08-14 02:54:02,008: root: INFO: [34mIndicatorTrader : Executing the on_trading_iteration lifecycle method at 2024-08-14 02:54:02[0m
+2024-08-14 02:54:02,222: root: INFO: [34mIndicatorTrader : Trading iteration ended at 2024-08-14 02:54:02[0m
+2024-08-14 02:54:02,223: root: INFO: IndicatorTrader : [34mSleeping for 86400 seconds[0m
+2024-08-14 02:54:02,223: root: INFO: Current backtesting datetime 2020-01-07 16:00:00-05:00
+2024-08-14 02:54:02,223: root: INFO: Current backtesting datetime 2020-01-08 09:30:00-05:00
+2024-08-14 02:54:02,223: root: INFO: [34mIndicatorTrader : Executing the on_trading_iteration lifecycle method at 2024-08-14 02:54:02[0m
+2024-08-14 02:54:02,440: root: INFO: [34mIndicatorTrader : Trading iteration ended at 2024-08-14 02:54:02[0m
+2024-08-14 02:54:02,441: root: INFO: IndicatorTrader : [34mSleeping for 86400 seconds[0m
+2024-08-14 02:54:02,441: root: INFO: Current backtesting datetime 2020-01-08 16:00:00-05:00
+2024-08-14 02:54:02,441: root: INFO: Current backtesting datetime 2020-01-09 09:30:00-05:00
+2024-08-14 02:54:02,441: root: INFO: [34mIndicatorTrader : Executing the on_trading_iteration lifecycle method at 2024-08-14 02:54:02[0m
+2024-08-14 02:54:02,640: root: INFO: [34mIndicatorTrader : Trading iteration ended at 2024-08-14 02:54:02[0m
+2024-08-14 02:54:02,641: root: INFO: IndicatorTrader : [34mSleeping for 86400 seconds[0m
+2024-08-14 02:54:02,641: root: INFO: Current backtesting datetime 2020-01-09 16:00:00-05:00
+2024-08-14 02:54:02,641: root: INFO: Current backtesting datetime 2020-01-10 09:30:00-05:00
+2024-08-14 02:54:02,641: root: INFO: [34mIndicatorTrader : Executing the on_trading_iteration lifecycle method at 2024-08-14 02:54:02[0m
+2024-08-14 02:54:02,839: root: INFO: [34mIndicatorTrader : Trading iteration ended at 2024-08-14 02:54:02[0m
+2024-08-14 02:54:02,840: root: INFO: IndicatorTrader : [34mSleeping for 86400 seconds[0m
+2024-08-14 02:54:02,840: root: INFO: Current backtesting datetime 2020-01-10 16:00:00-05:00
+2024-08-14 02:54:02,840: root: INFO: Current backtesting datetime 2020-01-11 09:30:00-05:00
+2024-08-14 02:54:02,841: root: INFO: [34mIndicatorTrader : The market is not currently open, skipping this trading iteration[0m
+2024-08-14 02:54:02,841: root: INFO: Current backtesting datetime 2020-01-11 09:29:00-05:00
+2024-08-14 02:54:02,842: root: INFO: Current backtesting datetime 2020-01-11 09:29:00-05:00
+2024-08-14 02:54:02,842: root: INFO: IndicatorTrader : Executing the after_market_closes lifecycle method
+2024-08-14 02:54:02,842: root: INFO: Current backtesting datetime 2020-01-13 08:30:00-05:00
+2024-08-14 02:54:02,842: root: INFO: IndicatorTrader : Executing the before_market_opens lifecycle method
+2024-08-14 02:54:02,842: root: INFO: Current backtesting datetime 2020-01-13 09:30:00-05:00
+2024-08-14 02:54:02,842: root: INFO: IndicatorTrader : Executing the before_starting_trading lifecycle method
+2024-08-14 02:54:02,843: root: INFO: [34mIndicatorTrader : Executing the on_trading_iteration lifecycle method at 2024-08-14 02:54:02[0m
+2024-08-14 02:54:03,034: root: INFO: [34mIndicatorTrader : Trading iteration ended at 2024-08-14 02:54:03[0m
+2024-08-14 02:54:03,035: root: INFO: IndicatorTrader : [34mSleeping for 86400 seconds[0m
+2024-08-14 02:54:03,036: root: INFO: Current backtesting datetime 2020-01-13 16:00:00-05:00
+2024-08-14 02:54:03,036: root: INFO: Current backtesting datetime 2020-01-14 09:30:00-05:00
+2024-08-14 02:54:03,036: root: INFO: [34mIndicatorTrader : Executing the on_trading_iteration lifecycle method at 2024-08-14 02:54:03[0m
+2024-08-14 02:54:03,243: root: INFO: [34mIndicatorTrader : Trading iteration ended at 2024-08-14 02:54:03[0m
+2024-08-14 02:54:03,243: root: INFO: IndicatorTrader : [34mSleeping for 86400 seconds[0m
+2024-08-14 02:54:03,244: root: INFO: Current backtesting datetime 2020-01-14 16:00:00-05:00
+2024-08-14 02:54:03,244: root: INFO: Current backtesting datetime 2020-01-15 09:30:00-05:00
+2024-08-14 02:54:03,244: root: INFO: [34mIndicatorTrader : Executing the on_trading_iteration lifecycle method at 2024-08-14 02:54:03[0m
+2024-08-14 02:54:03,523: root: INFO: [34mIndicatorTrader : Trading iteration ended at 2024-08-14 02:54:03[0m
+2024-08-14 02:54:03,524: root: INFO: IndicatorTrader : [34mSleeping for 86400 seconds[0m
+2024-08-14 02:54:03,524: root: INFO: Current backtesting datetime 2020-01-15 16:00:00-05:00
+2024-08-14 02:54:03,524: root: INFO: Current backtesting datetime 2020-01-16 09:30:00-05:00
+2024-08-14 02:54:03,524: root: INFO: [34mIndicatorTrader : Executing the on_trading_iteration lifecycle method at 2024-08-14 02:54:03[0m
+2024-08-14 02:54:03,748: root: INFO: [34mIndicatorTrader : Trading iteration ended at 2024-08-14 02:54:03[0m
+2024-08-14 02:54:03,749: root: INFO: IndicatorTrader : [34mSleeping for 86400 seconds[0m
+2024-08-14 02:54:03,749: root: INFO: Current backtesting datetime 2020-01-16 16:00:00-05:00
+2024-08-14 02:54:03,750: root: INFO: Current backtesting datetime 2020-01-17 09:30:00-05:00
+2024-08-14 02:54:03,750: root: INFO: [34mIndicatorTrader : Executing the on_trading_iteration lifecycle method at 2024-08-14 02:54:03[0m
+2024-08-14 02:54:03,907: root: INFO: [34mIndicatorTrader : Trading iteration ended at 2024-08-14 02:54:03[0m
+2024-08-14 02:54:03,908: root: INFO: IndicatorTrader : [34mSleeping for 86400 seconds[0m
+2024-08-14 02:54:03,908: root: INFO: Current backtesting datetime 2020-01-17 16:00:00-05:00
+2024-08-14 02:54:03,908: root: INFO: Current backtesting datetime 2020-01-18 09:30:00-05:00
+2024-08-14 02:54:03,908: root: INFO: [34mIndicatorTrader : The market is not currently open, skipping this trading iteration[0m
+2024-08-14 02:54:03,909: root: INFO: Current backtesting datetime 2020-01-18 09:29:00-05:00
+2024-08-14 02:54:03,909: root: INFO: Current backtesting datetime 2020-01-18 09:29:00-05:00
+2024-08-14 02:54:03,909: root: INFO: IndicatorTrader : Executing the after_market_closes lifecycle method
+2024-08-14 02:54:03,910: root: INFO: Current backtesting datetime 2020-01-21 08:30:00-05:00
+2024-08-14 02:54:03,910: root: INFO: IndicatorTrader : Executing the before_market_opens lifecycle method
+2024-08-14 02:54:03,910: root: INFO: Current backtesting datetime 2020-01-21 09:30:00-05:00
+2024-08-14 02:54:03,910: root: INFO: IndicatorTrader : Executing the before_starting_trading lifecycle method
+2024-08-14 02:54:03,911: root: INFO: [34mIndicatorTrader : Executing the on_trading_iteration lifecycle method at 2024-08-14 02:54:03[0m
+2024-08-14 02:54:04,010: root: INFO: [34mIndicatorTrader : Trading iteration ended at 2024-08-14 02:54:04[0m
+2024-08-14 02:54:04,011: root: INFO: IndicatorTrader : [34mSleeping for 86400 seconds[0m
+2024-08-14 02:54:04,011: root: INFO: Current backtesting datetime 2020-01-21 16:00:00-05:00
+2024-08-14 02:54:04,011: root: INFO: Current backtesting datetime 2020-01-22 09:30:00-05:00
+2024-08-14 02:54:04,011: root: INFO: [34mIndicatorTrader : Executing the on_trading_iteration lifecycle method at 2024-08-14 02:54:04[0m
+2024-08-14 02:54:04,199: root: INFO: [34mIndicatorTrader : Trading iteration ended at 2024-08-14 02:54:04[0m
+2024-08-14 02:54:04,200: root: INFO: IndicatorTrader : [34mSleeping for 86400 seconds[0m
+2024-08-14 02:54:04,200: root: INFO: Current backtesting datetime 2020-01-22 16:00:00-05:00
+2024-08-14 02:54:04,200: root: INFO: Current backtesting datetime 2020-01-23 09:30:00-05:00
+2024-08-14 02:54:04,200: root: INFO: [34mIndicatorTrader : Executing the on_trading_iteration lifecycle method at 2024-08-14 02:54:04[0m
+2024-08-14 02:54:04,362: root: INFO: [34mIndicatorTrader : Trading iteration ended at 2024-08-14 02:54:04[0m
+2024-08-14 02:54:04,363: root: INFO: IndicatorTrader : [34mSleeping for 86400 seconds[0m
+2024-08-14 02:54:04,363: root: INFO: Current backtesting datetime 2020-01-23 16:00:00-05:00
+2024-08-14 02:54:04,363: root: INFO: Current backtesting datetime 2020-01-24 09:30:00-05:00
+2024-08-14 02:54:04,363: root: INFO: [34mIndicatorTrader : Executing the on_trading_iteration lifecycle method at 2024-08-14 02:54:04[0m
+2024-08-14 02:54:04,571: root: INFO: [34mIndicatorTrader : Trading iteration ended at 2024-08-14 02:54:04[0m
+2024-08-14 02:54:04,572: root: INFO: IndicatorTrader : [34mSleeping for 86400 seconds[0m
+2024-08-14 02:54:04,572: root: INFO: Current backtesting datetime 2020-01-24 16:00:00-05:00
+2024-08-14 02:54:04,572: root: INFO: Current backtesting datetime 2020-01-25 09:30:00-05:00
+2024-08-14 02:54:04,572: root: INFO: [34mIndicatorTrader : The market is not currently open, skipping this trading iteration[0m
+2024-08-14 02:54:04,573: root: INFO: Current backtesting datetime 2020-01-25 09:29:00-05:00
+2024-08-14 02:54:04,573: root: INFO: Current backtesting datetime 2020-01-25 09:29:00-05:00
+2024-08-14 02:54:04,573: root: INFO: IndicatorTrader : Executing the after_market_closes lifecycle method
+2024-08-14 02:54:04,573: root: INFO: Current backtesting datetime 2020-01-27 08:30:00-05:00
+2024-08-14 02:54:04,574: root: INFO: IndicatorTrader : Executing the before_market_opens lifecycle method
+2024-08-14 02:54:04,574: root: INFO: Current backtesting datetime 2020-01-27 09:30:00-05:00
+2024-08-14 02:54:04,574: root: INFO: IndicatorTrader : Executing the before_starting_trading lifecycle method
+2024-08-14 02:54:04,574: root: INFO: [34mIndicatorTrader : Executing the on_trading_iteration lifecycle method at 2024-08-14 02:54:04[0m
+2024-08-14 02:54:04,819: root: INFO: [34mIndicatorTrader : Trading iteration ended at 2024-08-14 02:54:04[0m
+2024-08-14 02:54:04,820: root: INFO: IndicatorTrader : [34mSleeping for 86400 seconds[0m
+2024-08-14 02:54:04,820: root: INFO: Current backtesting datetime 2020-01-27 16:00:00-05:00
+2024-08-14 02:54:04,820: root: INFO: Current backtesting datetime 2020-01-28 09:30:00-05:00
+2024-08-14 02:54:04,820: root: INFO: [34mIndicatorTrader : Executing the on_trading_iteration lifecycle method at 2024-08-14 02:54:04[0m
+2024-08-14 02:54:05,063: root: INFO: [34mIndicatorTrader : Trading iteration ended at 2024-08-14 02:54:05[0m
+2024-08-14 02:54:05,064: root: INFO: IndicatorTrader : [34mSleeping for 86400 seconds[0m
+2024-08-14 02:54:05,064: root: INFO: Current backtesting datetime 2020-01-28 16:00:00-05:00
+2024-08-14 02:54:05,064: root: INFO: Current backtesting datetime 2020-01-29 09:30:00-05:00
+2024-08-14 02:54:05,064: root: INFO: [34mIndicatorTrader : Executing the on_trading_iteration lifecycle method at 2024-08-14 02:54:05[0m
+2024-08-14 02:54:05,232: root: INFO: [34mIndicatorTrader : Trading iteration ended at 2024-08-14 02:54:05[0m
+2024-08-14 02:54:05,233: root: INFO: IndicatorTrader : [34mSleeping for 86400 seconds[0m
+2024-08-14 02:54:05,233: root: INFO: Current backtesting datetime 2020-01-29 16:00:00-05:00
+2024-08-14 02:54:05,234: root: INFO: Current backtesting datetime 2020-01-30 09:30:00-05:00
+2024-08-14 02:54:05,234: root: INFO: [34mIndicatorTrader : Executing the on_trading_iteration lifecycle method at 2024-08-14 02:54:05[0m
+2024-08-14 02:54:05,416: root: INFO: [34mIndicatorTrader : Trading iteration ended at 2024-08-14 02:54:05[0m
+2024-08-14 02:54:05,416: root: INFO: IndicatorTrader : [34mSleeping for 86400 seconds[0m
+2024-08-14 02:54:05,417: root: INFO: Current backtesting datetime 2020-01-30 16:00:00-05:00
+2024-08-14 02:54:05,417: root: INFO: Current backtesting datetime 2020-01-31 09:30:00-05:00
+2024-08-14 02:54:05,417: root: INFO: [34mIndicatorTrader : Executing the on_trading_iteration lifecycle method at 2024-08-14 02:54:05[0m
+2024-08-14 02:54:05,608: root: INFO: [34mIndicatorTrader : Trading iteration ended at 2024-08-14 02:54:05[0m
+2024-08-14 02:54:05,609: root: INFO: IndicatorTrader : [34mSleeping for 86400 seconds[0m
+2024-08-14 02:54:05,609: root: INFO: Current backtesting datetime 2020-01-31 16:00:00-05:00
+2024-08-14 02:54:05,609: root: INFO: Current backtesting datetime 2020-02-01 09:30:00-05:00
+2024-08-14 02:54:05,610: root: INFO: [34mIndicatorTrader : The market is not currently open, skipping this trading iteration[0m
+2024-08-14 02:54:05,610: root: INFO: Current backtesting datetime 2020-02-01 09:29:00-05:00
+2024-08-14 02:54:05,611: root: INFO: Current backtesting datetime 2020-02-01 09:29:00-05:00
+2024-08-14 02:54:05,611: root: INFO: IndicatorTrader : Executing the after_market_closes lifecycle method
+2024-08-14 02:54:05,611: root: INFO: Current backtesting datetime 2020-02-03 08:30:00-05:00
+2024-08-14 02:54:05,611: root: INFO: IndicatorTrader : Executing the before_market_opens lifecycle method
+2024-08-14 02:54:05,611: root: INFO: Current backtesting datetime 2020-02-03 09:30:00-05:00
+2024-08-14 02:54:05,611: root: INFO: IndicatorTrader : Executing the before_starting_trading lifecycle method
+2024-08-14 02:54:05,612: root: INFO: [34mIndicatorTrader : Executing the on_trading_iteration lifecycle method at 2024-08-14 02:54:05[0m
+2024-08-14 02:54:05,781: root: INFO: [34mIndicatorTrader : Trading iteration ended at 2024-08-14 02:54:05[0m
+2024-08-14 02:54:05,781: root: INFO: IndicatorTrader : [34mSleeping for 86400 seconds[0m
+2024-08-14 02:54:05,781: root: INFO: Current backtesting datetime 2020-02-03 16:00:00-05:00
+2024-08-14 02:54:05,781: root: INFO: Current backtesting datetime 2020-02-04 09:30:00-05:00
+2024-08-14 02:54:05,782: root: INFO: [34mIndicatorTrader : Executing the on_trading_iteration lifecycle method at 2024-08-14 02:54:05[0m
+2024-08-14 02:54:05,929: root: INFO: [34mIndicatorTrader : Trading iteration ended at 2024-08-14 02:54:05[0m
+2024-08-14 02:54:05,929: root: INFO: IndicatorTrader : [34mSleeping for 86400 seconds[0m
+2024-08-14 02:54:05,929: root: INFO: Current backtesting datetime 2020-02-04 16:00:00-05:00
+2024-08-14 02:54:05,929: root: INFO: Current backtesting datetime 2020-02-05 09:30:00-05:00
+2024-08-14 02:54:05,930: root: INFO: [34mIndicatorTrader : Executing the on_trading_iteration lifecycle method at 2024-08-14 02:54:05[0m
+2024-08-14 02:54:06,210: root: INFO: [34mIndicatorTrader : Trading iteration ended at 2024-08-14 02:54:06[0m
+2024-08-14 02:54:06,210: root: INFO: IndicatorTrader : [34mSleeping for 86400 seconds[0m
+2024-08-14 02:54:06,211: root: INFO: Current backtesting datetime 2020-02-05 16:00:00-05:00
+2024-08-14 02:54:06,211: root: INFO: Current backtesting datetime 2020-02-06 09:30:00-05:00
+2024-08-14 02:54:06,211: root: INFO: [34mIndicatorTrader : Executing the on_trading_iteration lifecycle method at 2024-08-14 02:54:06[0m
+2024-08-14 02:54:06,419: root: INFO: [34mIndicatorTrader : Trading iteration ended at 2024-08-14 02:54:06[0m
+2024-08-14 02:54:06,420: root: INFO: IndicatorTrader : [34mSleeping for 86400 seconds[0m
+2024-08-14 02:54:06,420: root: INFO: Current backtesting datetime 2020-02-06 16:00:00-05:00
+2024-08-14 02:54:06,420: root: INFO: Current backtesting datetime 2020-02-07 09:30:00-05:00
+2024-08-14 02:54:06,420: root: INFO: [34mIndicatorTrader : Executing the on_trading_iteration lifecycle method at 2024-08-14 02:54:06[0m
+2024-08-14 02:54:06,666: root: INFO: [34mIndicatorTrader : Trading iteration ended at 2024-08-14 02:54:06[0m
+2024-08-14 02:54:06,667: root: INFO: IndicatorTrader : [34mSleeping for 86400 seconds[0m
+2024-08-14 02:54:06,667: root: INFO: Current backtesting datetime 2020-02-07 16:00:00-05:00
+2024-08-14 02:54:06,667: root: INFO: Current backtesting datetime 2020-02-08 09:30:00-05:00
+2024-08-14 02:54:06,667: root: INFO: [34mIndicatorTrader : The market is not currently open, skipping this trading iteration[0m
+2024-08-14 02:54:06,668: root: INFO: Current backtesting datetime 2020-02-08 09:29:00-05:00
+2024-08-14 02:54:06,668: root: INFO: Current backtesting datetime 2020-02-08 09:29:00-05:00
+2024-08-14 02:54:06,668: root: INFO: IndicatorTrader : Executing the after_market_closes lifecycle method
+2024-08-14 02:54:06,668: root: INFO: Current backtesting datetime 2020-02-10 08:30:00-05:00
+2024-08-14 02:54:06,669: root: INFO: IndicatorTrader : Executing the before_market_opens lifecycle method
+2024-08-14 02:54:06,669: root: INFO: Current backtesting datetime 2020-02-10 09:30:00-05:00
+2024-08-14 02:54:06,669: root: INFO: IndicatorTrader : Executing the before_starting_trading lifecycle method
+2024-08-14 02:54:06,669: root: INFO: [34mIndicatorTrader : Executing the on_trading_iteration lifecycle method at 2024-08-14 02:54:06[0m
+2024-08-14 02:54:06,909: root: INFO: [34mIndicatorTrader : Trading iteration ended at 2024-08-14 02:54:06[0m
+2024-08-14 02:54:06,910: root: INFO: IndicatorTrader : [34mSleeping for 86400 seconds[0m
+2024-08-14 02:54:06,910: root: INFO: Current backtesting datetime 2020-02-10 16:00:00-05:00
+2024-08-14 02:54:06,910: root: INFO: Current backtesting datetime 2020-02-11 09:30:00-05:00
+2024-08-14 02:54:06,910: root: INFO: [34mIndicatorTrader : Executing the on_trading_iteration lifecycle method at 2024-08-14 02:54:06[0m
+2024-08-14 02:54:07,106: root: INFO: [34mIndicatorTrader : Trading iteration ended at 2024-08-14 02:54:07[0m
+2024-08-14 02:54:07,106: root: INFO: IndicatorTrader : [34mSleeping for 86400 seconds[0m
+2024-08-14 02:54:07,107: root: INFO: Current backtesting datetime 2020-02-11 16:00:00-05:00
+2024-08-14 02:54:07,107: root: INFO: Current backtesting datetime 2020-02-12 09:30:00-05:00
+2024-08-14 02:54:07,107: root: INFO: [34mIndicatorTrader : Executing the on_trading_iteration lifecycle method at 2024-08-14 02:54:07[0m
+2024-08-14 02:54:07,275: root: INFO: [34mIndicatorTrader : Trading iteration ended at 2024-08-14 02:54:07[0m
+2024-08-14 02:54:07,276: root: INFO: IndicatorTrader : [34mSleeping for 86400 seconds[0m
+2024-08-14 02:54:07,276: root: INFO: Current backtesting datetime 2020-02-12 16:00:00-05:00
+2024-08-14 02:54:07,276: root: INFO: Current backtesting datetime 2020-02-13 09:30:00-05:00
+2024-08-14 02:54:07,276: root: INFO: [34mIndicatorTrader : Executing the on_trading_iteration lifecycle method at 2024-08-14 02:54:07[0m
+2024-08-14 02:54:07,453: root: INFO: [34mIndicatorTrader : Trading iteration ended at 2024-08-14 02:54:07[0m
+2024-08-14 02:54:07,454: root: INFO: IndicatorTrader : [34mSleeping for 86400 seconds[0m
+2024-08-14 02:54:07,454: root: INFO: Current backtesting datetime 2020-02-13 16:00:00-05:00
+2024-08-14 02:54:07,454: root: INFO: Current backtesting datetime 2020-02-14 09:30:00-05:00
+2024-08-14 02:54:07,454: root: INFO: [34mIndicatorTrader : Executing the on_trading_iteration lifecycle method at 2024-08-14 02:54:07[0m
+2024-08-14 02:54:07,693: root: INFO: [34mIndicatorTrader : Trading iteration ended at 2024-08-14 02:54:07[0m
+2024-08-14 02:54:07,694: root: INFO: IndicatorTrader : [34mSleeping for 86400 seconds[0m
+2024-08-14 02:54:07,694: root: INFO: Current backtesting datetime 2020-02-14 16:00:00-05:00
+2024-08-14 02:54:07,694: root: INFO: Current backtesting datetime 2020-02-15 09:30:00-05:00
+2024-08-14 02:54:07,694: root: INFO: [34mIndicatorTrader : The market is not currently open, skipping this trading iteration[0m
+2024-08-14 02:54:07,695: root: INFO: Current backtesting datetime 2020-02-15 09:29:00-05:00
+2024-08-14 02:54:07,695: root: INFO: Current backtesting datetime 2020-02-15 09:29:00-05:00
+2024-08-14 02:54:07,695: root: INFO: IndicatorTrader : Executing the after_market_closes lifecycle method
+2024-08-14 02:54:07,696: root: INFO: Current backtesting datetime 2020-02-18 08:30:00-05:00
+2024-08-14 02:54:07,696: root: INFO: IndicatorTrader : Executing the before_market_opens lifecycle method
+2024-08-14 02:54:07,696: root: INFO: Current backtesting datetime 2020-02-18 09:30:00-05:00
+2024-08-14 02:54:07,696: root: INFO: IndicatorTrader : Executing the before_starting_trading lifecycle method
+2024-08-14 02:54:07,697: root: INFO: [34mIndicatorTrader : Executing the on_trading_iteration lifecycle method at 2024-08-14 02:54:07[0m
+2024-08-14 02:54:07,962: root: INFO: [34mIndicatorTrader : Trading iteration ended at 2024-08-14 02:54:07[0m
+2024-08-14 02:54:07,963: root: INFO: IndicatorTrader : [34mSleeping for 86400 seconds[0m
+2024-08-14 02:54:07,963: root: INFO: Current backtesting datetime 2020-02-18 16:00:00-05:00
+2024-08-14 02:54:07,963: root: INFO: Current backtesting datetime 2020-02-19 09:30:00-05:00
+2024-08-14 02:54:07,963: root: INFO: [34mIndicatorTrader : Executing the on_trading_iteration lifecycle method at 2024-08-14 02:54:07[0m
+2024-08-14 02:54:08,161: root: INFO: [34mIndicatorTrader : Trading iteration ended at 2024-08-14 02:54:08[0m
+2024-08-14 02:54:08,162: root: INFO: IndicatorTrader : [34mSleeping for 86400 seconds[0m
+2024-08-14 02:54:08,162: root: INFO: Current backtesting datetime 2020-02-19 16:00:00-05:00
+2024-08-14 02:54:08,162: root: INFO: Current backtesting datetime 2020-02-20 09:30:00-05:00
+2024-08-14 02:54:08,162: root: INFO: [34mIndicatorTrader : Executing the on_trading_iteration lifecycle method at 2024-08-14 02:54:08[0m
+2024-08-14 02:54:08,337: root: INFO: [34mIndicatorTrader : Trading iteration ended at 2024-08-14 02:54:08[0m
+2024-08-14 02:54:08,337: root: INFO: IndicatorTrader : [34mSleeping for 86400 seconds[0m
+2024-08-14 02:54:08,338: root: INFO: Current backtesting datetime 2020-02-20 16:00:00-05:00
+2024-08-14 02:54:08,338: root: INFO: Current backtesting datetime 2020-02-21 09:30:00-05:00
+2024-08-14 02:54:08,338: root: INFO: [34mIndicatorTrader : Executing the on_trading_iteration lifecycle method at 2024-08-14 02:54:08[0m
+2024-08-14 02:54:08,573: root: INFO: [34mIndicatorTrader : Trading iteration ended at 2024-08-14 02:54:08[0m
+2024-08-14 02:54:08,574: root: INFO: IndicatorTrader : [34mSleeping for 86400 seconds[0m
+2024-08-14 02:54:08,574: root: INFO: Current backtesting datetime 2020-02-21 16:00:00-05:00
+2024-08-14 02:54:08,574: root: INFO: Current backtesting datetime 2020-02-22 09:30:00-05:00
+2024-08-14 02:54:08,575: root: INFO: [34mIndicatorTrader : The market is not currently open, skipping this trading iteration[0m
+2024-08-14 02:54:08,575: root: INFO: Current backtesting datetime 2020-02-22 09:29:00-05:00
+2024-08-14 02:54:08,576: root: INFO: Current backtesting datetime 2020-02-22 09:29:00-05:00
+2024-08-14 02:54:08,576: root: INFO: IndicatorTrader : Executing the after_market_closes lifecycle method
+2024-08-14 02:54:08,576: root: INFO: Current backtesting datetime 2020-02-24 08:30:00-05:00
+2024-08-14 02:54:08,576: root: INFO: IndicatorTrader : Executing the before_market_opens lifecycle method
+2024-08-14 02:54:08,577: root: INFO: Current backtesting datetime 2020-02-24 09:30:00-05:00
+2024-08-14 02:54:08,577: root: INFO: IndicatorTrader : Executing the before_starting_trading lifecycle method
+2024-08-14 02:54:08,577: root: INFO: [34mIndicatorTrader : Executing the on_trading_iteration lifecycle method at 2024-08-14 02:54:08[0m
+2024-08-14 02:54:08,774: root: INFO: [34mIndicatorTrader : Trading iteration ended at 2024-08-14 02:54:08[0m
+2024-08-14 02:54:08,774: root: INFO: IndicatorTrader : [34mSleeping for 86400 seconds[0m
+2024-08-14 02:54:08,775: root: INFO: Current backtesting datetime 2020-02-24 16:00:00-05:00
+2024-08-14 02:54:08,775: root: INFO: Current backtesting datetime 2020-02-25 09:30:00-05:00
+2024-08-14 02:54:08,775: root: INFO: [34mIndicatorTrader : Executing the on_trading_iteration lifecycle method at 2024-08-14 02:54:08[0m
+2024-08-14 02:54:09,044: root: INFO: [34mIndicatorTrader : Trading iteration ended at 2024-08-14 02:54:09[0m
+2024-08-14 02:54:09,044: root: INFO: IndicatorTrader : [34mSleeping for 86400 seconds[0m
+2024-08-14 02:54:09,045: root: INFO: Current backtesting datetime 2020-02-25 16:00:00-05:00
+2024-08-14 02:54:09,045: root: INFO: Current backtesting datetime 2020-02-26 09:30:00-05:00
+2024-08-14 02:54:09,045: root: INFO: [34mIndicatorTrader : Executing the on_trading_iteration lifecycle method at 2024-08-14 02:54:09[0m
+2024-08-14 02:54:09,459: root: INFO: [34mIndicatorTrader : Trading iteration ended at 2024-08-14 02:54:09[0m
+2024-08-14 02:54:09,460: root: INFO: IndicatorTrader : [34mSleeping for 86400 seconds[0m
+2024-08-14 02:54:09,460: root: INFO: Current backtesting datetime 2020-02-26 16:00:00-05:00
+2024-08-14 02:54:09,460: root: INFO: Current backtesting datetime 2020-02-27 09:30:00-05:00
+2024-08-14 02:54:09,461: root: INFO: [34mIndicatorTrader : Executing the on_trading_iteration lifecycle method at 2024-08-14 02:54:09[0m
+2024-08-14 02:54:09,709: root: INFO: [34mIndicatorTrader : Trading iteration ended at 2024-08-14 02:54:09[0m
+2024-08-14 02:54:09,709: root: INFO: IndicatorTrader : [34mSleeping for 86400 seconds[0m
+2024-08-14 02:54:09,710: root: INFO: Current backtesting datetime 2020-02-27 16:00:00-05:00
+2024-08-14 02:54:09,710: root: INFO: Current backtesting datetime 2020-02-28 09:30:00-05:00
+2024-08-14 02:54:09,710: root: INFO: [34mIndicatorTrader : Executing the on_trading_iteration lifecycle method at 2024-08-14 02:54:09[0m
+2024-08-14 02:54:09,946: root: INFO: [34mIndicatorTrader : Trading iteration ended at 2024-08-14 02:54:09[0m
+2024-08-14 02:54:09,947: root: INFO: IndicatorTrader : [34mSleeping for 86400 seconds[0m
+2024-08-14 02:54:09,947: root: INFO: Current backtesting datetime 2020-02-28 16:00:00-05:00
+2024-08-14 02:54:09,947: root: INFO: Current backtesting datetime 2020-02-29 09:30:00-05:00
+2024-08-14 02:54:09,947: root: INFO: [34mIndicatorTrader : The market is not currently open, skipping this trading iteration[0m
+2024-08-14 02:54:09,948: root: INFO: Current backtesting datetime 2020-02-29 09:29:00-05:00
+2024-08-14 02:54:09,948: root: INFO: Current backtesting datetime 2020-02-29 09:29:00-05:00
+2024-08-14 02:54:09,948: root: INFO: IndicatorTrader : Executing the after_market_closes lifecycle method
+2024-08-14 02:54:09,949: root: INFO: Current backtesting datetime 2020-03-02 08:30:00-05:00
+2024-08-14 02:54:09,949: root: INFO: IndicatorTrader : Executing the before_market_opens lifecycle method
+2024-08-14 02:54:09,949: root: INFO: Current backtesting datetime 2020-03-02 09:30:00-05:00
+2024-08-14 02:54:09,949: root: INFO: IndicatorTrader : Executing the before_starting_trading lifecycle method
+2024-08-14 02:54:09,950: root: INFO: [34mIndicatorTrader : Executing the on_trading_iteration lifecycle method at 2024-08-14 02:54:09[0m
+2024-08-14 02:54:10,163: root: INFO: [34mIndicatorTrader : Trading iteration ended at 2024-08-14 02:54:10[0m
+2024-08-14 02:54:10,163: root: INFO: IndicatorTrader : [34mSleeping for 86400 seconds[0m
+2024-08-14 02:54:10,164: root: INFO: Current backtesting datetime 2020-03-02 16:00:00-05:00
+2024-08-14 02:54:10,164: root: INFO: Current backtesting datetime 2020-03-03 09:30:00-05:00
+2024-08-14 02:54:10,164: root: INFO: [34mIndicatorTrader : Executing the on_trading_iteration lifecycle method at 2024-08-14 02:54:10[0m
+2024-08-14 02:54:10,353: root: INFO: [34mIndicatorTrader : Trading iteration ended at 2024-08-14 02:54:10[0m
+2024-08-14 02:54:10,354: root: INFO: IndicatorTrader : [34mSleeping for 86400 seconds[0m
+2024-08-14 02:54:10,354: root: INFO: Current backtesting datetime 2020-03-03 16:00:00-05:00
+2024-08-14 02:54:10,354: root: INFO: Current backtesting datetime 2020-03-04 09:30:00-05:00
+2024-08-14 02:54:10,355: root: INFO: [34mIndicatorTrader : Executing the on_trading_iteration lifecycle method at 2024-08-14 02:54:10[0m
+2024-08-14 02:54:10,653: root: INFO: [34mIndicatorTrader : Trading iteration ended at 2024-08-14 02:54:10[0m
+2024-08-14 02:54:10,654: root: INFO: IndicatorTrader : [34mSleeping for 86400 seconds[0m
+2024-08-14 02:54:10,654: root: INFO: Current backtesting datetime 2020-03-04 16:00:00-05:00
+2024-08-14 02:54:10,654: root: INFO: Current backtesting datetime 2020-03-05 09:30:00-05:00
+2024-08-14 02:54:10,655: root: INFO: [34mIndicatorTrader : Executing the on_trading_iteration lifecycle method at 2024-08-14 02:54:10[0m
+2024-08-14 02:54:10,829: root: INFO: [34mIndicatorTrader : Trading iteration ended at 2024-08-14 02:54:10[0m
+2024-08-14 02:54:10,830: root: INFO: IndicatorTrader : [34mSleeping for 86400 seconds[0m
+2024-08-14 02:54:10,830: root: INFO: Current backtesting datetime 2020-03-05 16:00:00-05:00
+2024-08-14 02:54:10,830: root: INFO: Current backtesting datetime 2020-03-06 09:30:00-05:00
+2024-08-14 02:54:10,830: root: INFO: [34mIndicatorTrader : Executing the on_trading_iteration lifecycle method at 2024-08-14 02:54:10[0m
+2024-08-14 02:54:11,007: root: INFO: [34mIndicatorTrader : Trading iteration ended at 2024-08-14 02:54:11[0m
+2024-08-14 02:54:11,008: root: INFO: IndicatorTrader : [34mSleeping for 86400 seconds[0m
+2024-08-14 02:54:11,008: root: INFO: Current backtesting datetime 2020-03-06 16:00:00-05:00
+2024-08-14 02:54:11,008: root: INFO: Current backtesting datetime 2020-03-07 09:30:00-05:00
+2024-08-14 02:54:11,009: root: INFO: [34mIndicatorTrader : The market is not currently open, skipping this trading iteration[0m
+2024-08-14 02:54:11,009: root: INFO: Current backtesting datetime 2020-03-07 09:29:00-05:00
+2024-08-14 02:54:11,010: root: INFO: Current backtesting datetime 2020-03-07 09:29:00-05:00
+2024-08-14 02:54:11,010: root: INFO: IndicatorTrader : Executing the after_market_closes lifecycle method
+2024-08-14 02:54:11,010: root: INFO: Current backtesting datetime 2020-03-09 07:30:00-05:00
+2024-08-14 02:54:11,010: root: INFO: IndicatorTrader : Executing the before_market_opens lifecycle method
+2024-08-14 02:54:11,011: root: INFO: Current backtesting datetime 2020-03-09 08:30:00-05:00
+2024-08-14 02:54:11,011: root: INFO: IndicatorTrader : Executing the before_starting_trading lifecycle method
+2024-08-14 02:54:11,011: root: INFO: [34mIndicatorTrader : Executing the on_trading_iteration lifecycle method at 2024-08-14 02:54:11[0m
+2024-08-14 02:54:11,248: root: INFO: [34mIndicatorTrader : Trading iteration ended at 2024-08-14 02:54:11[0m
+2024-08-14 02:54:11,248: root: INFO: IndicatorTrader : [34mSleeping for 86400 seconds[0m
+2024-08-14 02:54:11,248: root: INFO: Current backtesting datetime 2020-03-09 15:00:00-05:00
+2024-08-14 02:54:11,249: root: INFO: Current backtesting datetime 2020-03-10 08:30:00-05:00
+2024-08-14 02:54:11,249: root: INFO: [34mIndicatorTrader : Executing the on_trading_iteration lifecycle method at 2024-08-14 02:54:11[0m
+2024-08-14 02:54:11,422: root: INFO: [34mIndicatorTrader : Trading iteration ended at 2024-08-14 02:54:11[0m
+2024-08-14 02:54:11,423: root: INFO: IndicatorTrader : [34mSleeping for 86400 seconds[0m
+2024-08-14 02:54:11,423: root: INFO: Current backtesting datetime 2020-03-10 15:00:00-05:00
+2024-08-14 02:54:11,423: root: INFO: Current backtesting datetime 2020-03-11 08:30:00-05:00
+2024-08-14 02:54:11,423: root: INFO: [34mIndicatorTrader : Executing the on_trading_iteration lifecycle method at 2024-08-14 02:54:11[0m
+2024-08-14 02:54:11,633: root: INFO: [34mIndicatorTrader : Trading iteration ended at 2024-08-14 02:54:11[0m
+2024-08-14 02:54:11,634: root: INFO: IndicatorTrader : [34mSleeping for 86400 seconds[0m
+2024-08-14 02:54:11,634: root: INFO: Current backtesting datetime 2020-03-11 15:00:00-05:00
+2024-08-14 02:54:11,634: root: INFO: Current backtesting datetime 2020-03-12 08:30:00-05:00
+2024-08-14 02:54:11,634: root: INFO: [34mIndicatorTrader : Executing the on_trading_iteration lifecycle method at 2024-08-14 02:54:11[0m
+2024-08-14 02:54:11,828: root: INFO: [34mIndicatorTrader : Trading iteration ended at 2024-08-14 02:54:11[0m
+2024-08-14 02:54:11,829: root: INFO: IndicatorTrader : [34mSleeping for 86400 seconds[0m
+2024-08-14 02:54:11,829: root: INFO: Current backtesting datetime 2020-03-12 15:00:00-05:00
+2024-08-14 02:54:11,829: root: INFO: Current backtesting datetime 2020-03-13 08:30:00-05:00
+2024-08-14 02:54:11,829: root: INFO: [34mIndicatorTrader : Executing the on_trading_iteration lifecycle method at 2024-08-14 02:54:11[0m
+2024-08-14 02:54:12,008: root: INFO: [34mIndicatorTrader : Trading iteration ended at 2024-08-14 02:54:12[0m
+2024-08-14 02:54:12,009: root: INFO: IndicatorTrader : [34mSleeping for 86400 seconds[0m
+2024-08-14 02:54:12,009: root: INFO: Current backtesting datetime 2020-03-13 15:00:00-05:00
+2024-08-14 02:54:12,009: root: INFO: Current backtesting datetime 2020-03-14 08:30:00-05:00
+2024-08-14 02:54:12,010: root: INFO: [34mIndicatorTrader : The market is not currently open, skipping this trading iteration[0m
+2024-08-14 02:54:12,010: root: INFO: Current backtesting datetime 2020-03-14 08:29:00-05:00
+2024-08-14 02:54:12,011: root: INFO: Current backtesting datetime 2020-03-14 08:29:00-05:00
+2024-08-14 02:54:12,011: root: INFO: IndicatorTrader : Executing the after_market_closes lifecycle method
+2024-08-14 02:54:12,011: root: INFO: Current backtesting datetime 2020-03-16 07:30:00-05:00
+2024-08-14 02:54:12,011: root: INFO: IndicatorTrader : Executing the before_market_opens lifecycle method
+2024-08-14 02:54:12,011: root: INFO: Current backtesting datetime 2020-03-16 08:30:00-05:00
+2024-08-14 02:54:12,011: root: INFO: IndicatorTrader : Executing the before_starting_trading lifecycle method
+2024-08-14 02:54:12,012: root: INFO: Current backtesting datetime 2020-03-16 14:59:00-05:00
+2024-08-14 02:54:12,012: root: INFO: IndicatorTrader : Executing the before_market_closes lifecycle method
+2024-08-14 02:54:12,012: root: INFO: Current backtesting datetime 2020-03-16 15:00:00-05:00
+2024-08-14 02:54:12,012: root: INFO: IndicatorTrader : Executing the after_market_closes lifecycle method
+2024-08-14 02:54:12,012: root: INFO: IndicatorTrader : Executing the on_strategy_end lifecycle method
+2024-08-14 02:54:12,255: root: INFO: Backtesting finished
+2024-08-14 02:54:12,257: root: INFO: There were no trades in this backtest.
+2024-08-14 02:54:12,301: root: ERROR: Not enough data to create a tearsheet, at least 2 days of data are required. Skipping
+2024-08-14 02:54:12,301: backtest_stats: INFO: Backtest took 0:00:11.974243 for a speed of 0.000

@@ -1,0 +1,41 @@
+2024-08-14 02:47:27,193: root: INFO: IndicatorTrader : Executing the initialize lifecycle method
+2024-08-14 02:47:27,600: root: INFO: Current backtesting datetime 2020-01-02 08:30:00-05:00
+2024-08-14 02:47:27,601: root: INFO: IndicatorTrader : Executing the before_market_opens lifecycle method
+2024-08-14 02:47:27,601: root: INFO: Current backtesting datetime 2020-01-02 09:30:00-05:00
+2024-08-14 02:47:27,601: root: INFO: IndicatorTrader : Executing the before_starting_trading lifecycle method
+2024-08-14 02:47:27,601: root: INFO: [34mIndicatorTrader : Executing the on_trading_iteration lifecycle method at 2024-08-14 02:47:27[0m
+2024-08-14 02:47:27,728: root: ERROR: text input must be of type `str` (single example), `List[str]` (batch or single pretokenized example) or `List[List[str]]` (batch of pretokenized examples).
+2024-08-14 02:47:27,731: root: ERROR: Traceback (most recent call last):
+  File "/opt/miniconda3/envs/PythonTradingBot/lib/python3.10/site-packages/lumibot/strategies/strategy_executor.py", line 829, in run
+    self._run_trading_session()
+  File "/opt/miniconda3/envs/PythonTradingBot/lib/python3.10/site-packages/lumibot/strategies/strategy_executor.py", line 780, in _run_trading_session
+    self._on_trading_iteration()
+  File "/opt/miniconda3/envs/PythonTradingBot/lib/python3.10/site-packages/lumibot/strategies/strategy_executor.py", line 274, in func_output
+    result = func_input(self, *args, **kwargs)
+  File "/opt/miniconda3/envs/PythonTradingBot/lib/python3.10/site-packages/lumibot/strategies/strategy_executor.py", line 298, in func_output
+    result = func_input(self, *args, **kwargs)
+  File "/opt/miniconda3/envs/PythonTradingBot/lib/python3.10/site-packages/lumibot/strategies/strategy_executor.py", line 87, in func_output
+    return func_input(self, *args, **kwargs)
+  File "/opt/miniconda3/envs/PythonTradingBot/lib/python3.10/site-packages/lumibot/strategies/strategy_executor.py", line 378, in _on_trading_iteration
+    on_trading_iteration()
+  File "/opt/miniconda3/envs/PythonTradingBot/lib/python3.10/site-packages/lumibot/tools/decorators.py", line 62, in func_output
+    frame, result = call_function_get_frame(func_input, *args, **kwargs)
+  File "/opt/miniconda3/envs/PythonTradingBot/lib/python3.10/site-packages/lumibot/tools/decorators.py", line 30, in call_function_get_frame
+    result = func(*args, **kwargs)
+  File "/Users/sabeeh/Documents/Python-MLTradingBot/tradingbot.py", line 219, in on_trading_iteration
+    probability, sentiment = self.get_sentiment()  # Get sentiment analysis
+  File "/Users/sabeeh/Documents/Python-MLTradingBot/tradingbot.py", line 193, in get_sentiment
+    probability, sentiment = estimate_sentiment(news)  # Estimate sentiment
+  File "/Users/sabeeh/Documents/Python-MLTradingBot/finbert_utils.py", line 16, in estimate_sentiment
+    tokens = tokenizer(news, return_tensors="pt", padding=True).to(device)
+  File "/opt/miniconda3/envs/PythonTradingBot/lib/python3.10/site-packages/transformers/tokenization_utils_base.py", line 2803, in __call__
+    encodings = self._call_one(text=text, text_pair=text_pair, **all_kwargs)
+  File "/opt/miniconda3/envs/PythonTradingBot/lib/python3.10/site-packages/transformers/tokenization_utils_base.py", line 2861, in _call_one
+    raise ValueError(
+ValueError: text input must be of type `str` (single example), `List[str]` (batch or single pretokenized example) or `List[List[str]]` (batch of pretokenized examples).
+
+2024-08-14 02:47:27,731: root: INFO: IndicatorTrader : Executing the on_bot_crash event method
+2024-08-14 02:47:27,734: root: INFO: Backtesting finished
+2024-08-14 02:47:27,735: root: WARNING: Cannot plot returns because the strategy returns are missing
+2024-08-14 02:47:27,763: root: WARNING: Cannot create a tearsheet because the strategy returns are missing
+2024-08-14 02:47:27,763: backtest_stats: INFO: Backtest took 0:00:00.571021 for a speed of 0.000

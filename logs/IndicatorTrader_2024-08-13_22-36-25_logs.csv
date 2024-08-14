@@ -1,0 +1,50 @@
+2024-08-13 22:36:25,550: root: INFO: IndicatorTrader : Executing the initialize lifecycle method
+2024-08-13 22:36:25,967: root: INFO: Current backtesting datetime 2020-12-30 08:30:00-05:00
+2024-08-13 22:36:25,968: root: INFO: IndicatorTrader : Executing the before_market_opens lifecycle method
+2024-08-13 22:36:25,968: root: INFO: Current backtesting datetime 2020-12-30 09:30:00-05:00
+2024-08-13 22:36:25,968: root: INFO: IndicatorTrader : Executing the before_starting_trading lifecycle method
+2024-08-13 22:36:25,968: root: INFO: [34mIndicatorTrader : Executing the on_trading_iteration lifecycle method at 2024-08-13 22:36:25[0m
+2024-08-13 22:36:26,050: root: ERROR: 'close'
+2024-08-13 22:36:26,051: root: ERROR: Traceback (most recent call last):
+  File "/opt/miniconda3/envs/PythonTradingBot/lib/python3.10/site-packages/pandas/core/indexes/base.py", line 3653, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 147, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 176, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7080, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7088, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'close'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/opt/miniconda3/envs/PythonTradingBot/lib/python3.10/site-packages/lumibot/strategies/strategy_executor.py", line 829, in run
+    self._run_trading_session()
+  File "/opt/miniconda3/envs/PythonTradingBot/lib/python3.10/site-packages/lumibot/strategies/strategy_executor.py", line 780, in _run_trading_session
+    self._on_trading_iteration()
+  File "/opt/miniconda3/envs/PythonTradingBot/lib/python3.10/site-packages/lumibot/strategies/strategy_executor.py", line 274, in func_output
+    result = func_input(self, *args, **kwargs)
+  File "/opt/miniconda3/envs/PythonTradingBot/lib/python3.10/site-packages/lumibot/strategies/strategy_executor.py", line 298, in func_output
+    result = func_input(self, *args, **kwargs)
+  File "/opt/miniconda3/envs/PythonTradingBot/lib/python3.10/site-packages/lumibot/strategies/strategy_executor.py", line 87, in func_output
+    return func_input(self, *args, **kwargs)
+  File "/opt/miniconda3/envs/PythonTradingBot/lib/python3.10/site-packages/lumibot/strategies/strategy_executor.py", line 378, in _on_trading_iteration
+    on_trading_iteration()
+  File "/opt/miniconda3/envs/PythonTradingBot/lib/python3.10/site-packages/lumibot/tools/decorators.py", line 62, in func_output
+    frame, result = call_function_get_frame(func_input, *args, **kwargs)
+  File "/opt/miniconda3/envs/PythonTradingBot/lib/python3.10/site-packages/lumibot/tools/decorators.py", line 30, in call_function_get_frame
+    result = func(*args, **kwargs)
+  File "/Users/sabeeh/Documents/Python-MLTradingBot/tradingbot.py", line 220, in on_trading_iteration
+    short_ma, long_ma, rsi, atr = self.get_technical_indicators()  # Get technical indicators
+  File "/Users/sabeeh/Documents/Python-MLTradingBot/tradingbot.py", line 179, in get_technical_indicators
+    short_ma = talib.SMA(symbol_data['close'], timeperiod=MA_PERIOD_SHORT)
+  File "/opt/miniconda3/envs/PythonTradingBot/lib/python3.10/site-packages/pandas/core/frame.py", line 3761, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/opt/miniconda3/envs/PythonTradingBot/lib/python3.10/site-packages/pandas/core/indexes/base.py", line 3655, in get_loc
+    raise KeyError(key) from err
+KeyError: 'close'
+
+2024-08-13 22:36:26,051: root: INFO: IndicatorTrader : Executing the on_bot_crash event method
+2024-08-13 22:36:26,053: root: INFO: Backtesting finished
+2024-08-13 22:36:26,054: root: WARNING: Cannot plot returns because the strategy returns are missing
+2024-08-13 22:36:26,078: root: WARNING: Cannot create a tearsheet because the strategy returns are missing
+2024-08-13 22:36:26,078: backtest_stats: INFO: Backtest took 0:00:00.529161 for a speed of 0.000

@@ -1,0 +1,21 @@
+time,strategy,symbol,side,type,status,multiplier,time_in_force,asset.strike,asset.multiplier,asset.asset_type,price,filled_quantity,trade_cost
+2020-02-03 09:30:00-05:00,ParameterTrader,SPY,sell,market,new,1,gtc,0.0,1,stock,,,
+2020-02-03 09:30:00-05:00,ParameterTrader,SPY,sell,market,fill,1,gtc,0.0,1,stock,323.3500061035156,154,0.0
+2020-02-10 09:30:00-05:00,ParameterTrader,SPY,sell,market,new,1,gtc,0.0,1,stock,,,
+2020-02-10 09:30:00-05:00,ParameterTrader,SPY,sell,market,fill,1,gtc,0.0,1,stock,331.2300109863281,226,0.0
+2020-02-13 09:30:00-05:00,ParameterTrader,SPY,sell,market,new,1,gtc,0.0,1,stock,,,
+2020-02-13 09:30:00-05:00,ParameterTrader,SPY,sell,market,fill,1,gtc,0.0,1,stock,335.8599853515625,334,0.0
+2020-03-02 09:30:00-05:00,ParameterTrader,SPY,sell,market,new,1,gtc,0.0,1,stock,,,
+2020-03-02 09:30:00-05:00,ParameterTrader,SPY,sell,market,fill,1,gtc,0.0,1,stock,298.2099914550781,564,0.0
+2020-03-03 09:30:00-05:00,ParameterTrader,SPY,buy,limit,canceled,1,day,0.0,1,stock,,,
+2020-03-03 09:30:00-05:00,ParameterTrader,SPY,buy,stop,fill,1,day,0.0,1,stock,313.12049102783203,564,0.0
+2020-03-06 09:30:00-05:00,ParameterTrader,SPY,sell,market,new,1,gtc,0.0,1,stock,,,
+2020-03-06 09:30:00-05:00,ParameterTrader,SPY,sell,market,fill,1,gtc,0.0,1,stock,293.1499938964844,560,0.0
+2020-03-09 09:30:00-04:00,ParameterTrader,SPY,sell,market,new,1,gtc,0.0,1,stock,,,
+2020-03-09 09:30:00-04:00,ParameterTrader,SPY,sell,market,fill,1,gtc,0.0,1,stock,284.6400146484375,865,0.0
+2020-03-11 09:30:00-04:00,ParameterTrader,SPY,buy,stop,canceled,1,day,0.0,1,stock,,,
+2020-03-11 09:30:00-04:00,ParameterTrader,SPY,buy,limit,fill,1,day,0.0,1,stock,256.0,154,0.0
+2020-03-11 09:30:00-04:00,ParameterTrader,SPY,buy,stop,canceled,1,day,0.0,1,stock,,,
+2020-03-11 09:30:00-04:00,ParameterTrader,SPY,buy,limit,fill,1,day,0.0,1,stock,256.0,226,0.0
+2020-03-11 09:30:00-04:00,ParameterTrader,SPY,buy,stop,canceled,1,day,0.0,1,stock,,,
+2020-03-11 09:30:00-04:00,ParameterTrader,SPY,buy,limit,fill,1,day,0.0,1,stock,256.0,334,0.0

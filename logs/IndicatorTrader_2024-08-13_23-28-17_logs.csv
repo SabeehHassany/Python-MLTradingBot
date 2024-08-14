@@ -1,0 +1,33 @@
+2024-08-13 23:28:17,482: root: INFO: IndicatorTrader : Executing the initialize lifecycle method
+2024-08-13 23:28:17,917: root: INFO: Current backtesting datetime 2020-12-30 08:30:00-05:00
+2024-08-13 23:28:17,918: root: INFO: IndicatorTrader : Executing the before_market_opens lifecycle method
+2024-08-13 23:28:17,918: root: INFO: Current backtesting datetime 2020-12-30 09:30:00-05:00
+2024-08-13 23:28:17,918: root: INFO: IndicatorTrader : Executing the before_starting_trading lifecycle method
+2024-08-13 23:28:17,919: root: INFO: [34mIndicatorTrader : Executing the on_trading_iteration lifecycle method at 2024-08-13 23:28:17[0m
+2024-08-13 23:28:18,277: root: ERROR: 'NoneType' object is not subscriptable
+2024-08-13 23:28:18,279: root: ERROR: Traceback (most recent call last):
+  File "/opt/miniconda3/envs/PythonTradingBot/lib/python3.10/site-packages/lumibot/strategies/strategy_executor.py", line 829, in run
+    self._run_trading_session()
+  File "/opt/miniconda3/envs/PythonTradingBot/lib/python3.10/site-packages/lumibot/strategies/strategy_executor.py", line 780, in _run_trading_session
+    self._on_trading_iteration()
+  File "/opt/miniconda3/envs/PythonTradingBot/lib/python3.10/site-packages/lumibot/strategies/strategy_executor.py", line 274, in func_output
+    result = func_input(self, *args, **kwargs)
+  File "/opt/miniconda3/envs/PythonTradingBot/lib/python3.10/site-packages/lumibot/strategies/strategy_executor.py", line 298, in func_output
+    result = func_input(self, *args, **kwargs)
+  File "/opt/miniconda3/envs/PythonTradingBot/lib/python3.10/site-packages/lumibot/strategies/strategy_executor.py", line 87, in func_output
+    return func_input(self, *args, **kwargs)
+  File "/opt/miniconda3/envs/PythonTradingBot/lib/python3.10/site-packages/lumibot/strategies/strategy_executor.py", line 378, in _on_trading_iteration
+    on_trading_iteration()
+  File "/opt/miniconda3/envs/PythonTradingBot/lib/python3.10/site-packages/lumibot/tools/decorators.py", line 62, in func_output
+    frame, result = call_function_get_frame(func_input, *args, **kwargs)
+  File "/opt/miniconda3/envs/PythonTradingBot/lib/python3.10/site-packages/lumibot/tools/decorators.py", line 30, in call_function_get_frame
+    result = func(*args, **kwargs)
+  File "/Users/sabeeh/Documents/Python-MLTradingBot/tradingbot.py", line 219, in on_trading_iteration
+    if short_ma[-1] > long_ma[-1] and rsi[-1] < RSI_OVERSOLD and sentiment == "positive" and probability > SENTIMENT_THRESHOLD_BUY:
+TypeError: 'NoneType' object is not subscriptable
+
+2024-08-13 23:28:18,280: root: INFO: IndicatorTrader : Executing the on_bot_crash event method
+2024-08-13 23:28:18,282: root: INFO: Backtesting finished
+2024-08-13 23:28:18,283: root: WARNING: Cannot plot returns because the strategy returns are missing
+2024-08-13 23:28:18,353: root: WARNING: Cannot create a tearsheet because the strategy returns are missing
+2024-08-13 23:28:18,353: backtest_stats: INFO: Backtest took 0:00:00.871974 for a speed of 0.000
