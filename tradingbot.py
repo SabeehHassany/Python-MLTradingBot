@@ -50,9 +50,9 @@ CASH_AT_RISK = .5 # Fraction of cash to be risked per trade
 SLEEP_TIME = "24H"  # Time between trading iterations
 
 
-# Define API credentials
-API_KEY = "key" 
-API_SECRET = "secret" 
+# Define API credentials **REMEMBER TO REMOVE YOUR PERSONAL KEY**
+API_KEY = "PKOXOLZWZDO6T13OIMBO" 
+API_SECRET = "fMHYXHee6pjIk7nzKQMdSsvBRtppCbPQ2ipFm657" 
 BASE_URL = "https://paper-api.alpaca.markets/v2"
 
 # Create a dictionary to store Alpaca credentials
